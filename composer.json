@@ -17,7 +17,6 @@
     },
     "autoload": {
         "classmap": [ "src/aop/" ],
-        "exclude-from-classmap": ["src/aop/test"],
-        "psr-4": { "AlipaySdk\\": "src/aop/", "AlipaySdk\\request\\" : "src/aop/request/"}
+        "exclude-from-classmap": ["src/aop/test"]
     }
 }
