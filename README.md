@@ -13,6 +13,16 @@
 composer require miuhr/alipay-sdk
 ```
 
+所有类都被映射到了顶层命名空间
+
+```php
+$c = new \AopClient();
+$c->gatewayUrl = "https://openapi.alipay.com/gateway.do";
+
+$request= new \AlipaySystemOauthTokenRequest();
+$request->setCode($auth_code);
+```
+
 ## Security
 
 If you discover any security related issues, please email haobing.wang@qq.com instead of using the issue tracker.
