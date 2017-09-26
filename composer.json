@@ -16,6 +16,8 @@
         "php": ">5.5.0"
     },
     "autoload": {
-        "classmap": [ "src/aop/" ]
+        "classmap": [ "src/aop/" ],
+        "exclude-from-classmap": ["src/aop/test"],
+        "psr-4": { "AlipaySdk\\": "src/aop/", "AlipaySdk\\request\\" : "src/aop/request/"}
     }
 }
