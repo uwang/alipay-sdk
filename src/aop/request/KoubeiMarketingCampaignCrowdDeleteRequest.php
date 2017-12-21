@@ -3,7 +3,7 @@
  * ALIPAY API: koubei.marketing.campaign.crowd.delete request
  *
  * @author auto create
- * @since 1.0, 2017-08-01 16:00:11
+ * @since 1.0, 2017-08-30 14:59:00
  */
 class KoubeiMarketingCampaignCrowdDeleteRequest
 {

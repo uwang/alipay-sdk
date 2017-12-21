@@ -3,7 +3,7 @@
  * ALIPAY API: zhima.credit.watchlistii.get request
  *
  * @author auto create
- * @since 1.0, 2017-08-04 10:54:31
+ * @since 1.0, 2017-11-14 17:59:20
  */
 class ZhimaCreditWatchlistiiGetRequest
 {

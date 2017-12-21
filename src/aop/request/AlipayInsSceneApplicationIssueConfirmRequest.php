@@ -3,7 +3,7 @@
  * ALIPAY API: alipay.ins.scene.application.issue.confirm request
  *
  * @author auto create
- * @since 1.0, 2017-04-18 11:34:53
+ * @since 1.0, 2017-11-30 13:56:11
  */
 class AlipayInsSceneApplicationIssueConfirmRequest
 {

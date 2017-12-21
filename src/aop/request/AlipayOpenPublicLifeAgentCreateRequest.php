@@ -3,7 +3,7 @@
  * ALIPAY API: alipay.open.public.life.agent.create request
  *
  * @author auto create
- * @since 1.0, 2017-07-17 12:23:29
+ * @since 1.0, 2017-11-02 20:21:32
  */
 class AlipayOpenPublicLifeAgentCreateRequest
 {
@@ -23,12 +23,12 @@ class AlipayOpenPublicLifeAgentCreateRequest
 	private $businessLicenseAuthPic;
 	
 	/** 
-	 * 营业执照号码
+	 * 营业执照号码。被代创建商户运营主体为个人账户必填，企业账户无需填写
 	 **/
 	private $businessLicenseNo;
 	
 	/** 
-	 * 营业执照图片
+	 * 营业执照图片。被代创建商户运营主体为个人账户必填，企业账户无需填写
 	 **/
 	private $businessLicensePic;
 	
@@ -43,7 +43,7 @@ class AlipayOpenPublicLifeAgentCreateRequest
 	private $contactMobile;
 	
 	/** 
-	 * 企业联系人名称
+	 * 联系人名称
 	 **/
 	private $contactName;
 	
@@ -54,8 +54,7 @@ class AlipayOpenPublicLifeAgentCreateRequest
 	
 	/** 
 	 * 所属MCCCode，详情可参考
-<a href="https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.INIZWb&articleId=105364&docType=1
-">商家经营类目</a> 中的“经营类目编码”
+<a href="https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.INIZWb&articleId=105364&docType=1">商家经营类目</a> 中的“经营类目编码”
 	 **/
 	private $mccCode;
 	
@@ -80,12 +79,12 @@ class AlipayOpenPublicLifeAgentCreateRequest
 	private $publicName;
 	
 	/** 
-	 * 店铺内景图片，个人账户必填 ，企业账户选填
+	 * 店铺内景图片，被代创建商户运营主体为个人账户必填，企业账户选填
 	 **/
 	private $shopScenePic;
 	
 	/** 
-	 * 店铺门头照图片，个人账户必填，企业账户选填
+	 * 店铺门头照图片，被代创建商户运营主体为个人账户必填，企业账户选填
 	 **/
 	private $shopSignBoardPic;
 	
