@@ -1,6 +1,7 @@
 # Alipay SDK (支付宝SDK)
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
+[![Pre Release][https://img.shields.io/packagist/vpre/miuhr/alipay-sdk.svg]
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Software License][ico-license]](LICENSE)
 
@@ -39,7 +40,7 @@ If you discover any security related issues, please email haobing.wang@qq.com in
 [ico-downloads]: https://img.shields.io/packagist/dt/miuhr/alipay-sdk.svg
 [link-downloads]: https://packagist.org/packages/miuhr/alipay-sdk
 
-[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg
+[ico-license]: https://img.shields.io/packagist/l/doctrine/orm.svg
 
 [link-author]: https://github.com/haobingwang
 
