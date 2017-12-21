@@ -1,7 +1,7 @@
 # Alipay SDK (支付宝SDK)
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
-[![Pre Release][pre-version]
+![Pre Release][pre-version]
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Software License][ico-license]](LICENSE)
 
