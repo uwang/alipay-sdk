@@ -1,8 +1,8 @@
 # Alipay SDK (支付宝SDK)
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads][ico-downloads]][link-downloads]
-[![Software License][ico-license]](LICENSE)
+[![Latest Stable Version](https://poser.pugx.org/miuhr/alipay-sdk/v/stable)](https://packagist.org/packages/miuhr/alipay-sdk)
+[![Total Downloads](https://poser.pugx.org/miuhr/alipay-sdk/downloads)](https://packagist.org/packages/miuhr/alipay-sdk)
+[![License](https://poser.pugx.org/miuhr/alipay-sdk/license)](https://packagist.org/packages/miuhr/alipay-sdk)
 
 所有SDK源文件取自 [支付宝官网](https://docs.open.alipay.com/54/103419/)，原版未改动。
 
