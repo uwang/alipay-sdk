@@ -23,13 +23,3 @@ $c->gatewayUrl = "https://openapi.alipay.com/gateway.do";
 $request= new \AlipaySystemOauthTokenRequest();
 $request->setCode($auth_code);
 ```
-
-## Credits
-
-[ico-version]: https://img.shields.io/packagist/v/miuhr/alipay-sdk.svg
-[link-packagist]: https://packagist.org/packages/miuhr/alipay-sdk
-
-[ico-downloads]: https://img.shields.io/packagist/dt/miuhr/alipay-sdk.svg
-[link-downloads]: https://packagist.org/packages/miuhr/alipay-sdk
-
-[ico-license]: https://img.shields.io/packagist/l/doctrine/orm.svg
