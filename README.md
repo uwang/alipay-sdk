@@ -24,14 +24,7 @@ $request= new \AlipaySystemOauthTokenRequest();
 $request->setCode($auth_code);
 ```
 
-## Security
-
-If you discover any security related issues, please email haobing.wang@qq.com instead of using the issue tracker.
-
 ## Credits
-
-- [Haobing Wang][link-author]
-
 
 [ico-version]: https://img.shields.io/packagist/v/miuhr/alipay-sdk.svg
 [link-packagist]: https://packagist.org/packages/miuhr/alipay-sdk
@@ -40,6 +33,3 @@ If you discover any security related issues, please email haobing.wang@qq.com in
 [link-downloads]: https://packagist.org/packages/miuhr/alipay-sdk
 
 [ico-license]: https://img.shields.io/packagist/l/doctrine/orm.svg
-
-[link-author]: https://github.com/haobingwang
-
