@@ -3,7 +3,7 @@
  * ALIPAY API: alipay.open.app.notify.verify request
  *
  * @author auto create
- * @since 1.0, 2017-11-30 15:25:44
+ * @since 1.0, 2018-01-12 16:11:37
  */
 class AlipayOpenAppNotifyVerifyRequest
 {
