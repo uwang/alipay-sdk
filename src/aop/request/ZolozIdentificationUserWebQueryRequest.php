@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.air.xfg.dsg.modify request
+ * ALIPAY API: zoloz.identification.user.web.query request
  *
  * @author auto create
- * @since 1.0, 2018-01-18 15:28:48
+ * @since 1.0, 2018-03-05 11:34:47
  */
-class AlipayCommerceAirXfgDsgModifyRequest
+class ZolozIdentificationUserWebQueryRequest
 {
 	/** 
-	 * 吃饭更好
+	 * H5刷脸认证查询
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceAirXfgDsgModifyRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.air.xfg.dsg.modify";
+		return "zoloz.identification.user.web.query";
 	}
 
 	public function setNotifyUrl($notifyUrl)

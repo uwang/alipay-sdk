@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.air.xfg.dsg.modify request
+ * ALIPAY API: alipay.open.public.message.content.modify request
  *
  * @author auto create
- * @since 1.0, 2018-01-18 15:28:48
+ * @since 1.0, 2018-02-09 16:28:22
  */
-class AlipayCommerceAirXfgDsgModifyRequest
+class AlipayOpenPublicMessageContentModifyRequest
 {
 	/** 
-	 * 吃饭更好
+	 * 修改图文消息素材接口
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceAirXfgDsgModifyRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.air.xfg.dsg.modify";
+		return "alipay.open.public.message.content.modify";
 	}
 
 	public function setNotifyUrl($notifyUrl)

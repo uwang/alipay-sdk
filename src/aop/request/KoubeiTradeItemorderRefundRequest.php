@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.air.xfg.dsg.modify request
+ * ALIPAY API: koubei.trade.itemorder.refund request
  *
  * @author auto create
- * @since 1.0, 2018-01-18 15:28:48
+ * @since 1.0, 2018-02-08 13:54:45
  */
-class AlipayCommerceAirXfgDsgModifyRequest
+class KoubeiTradeItemorderRefundRequest
 {
 	/** 
-	 * 吃饭更好
+	 * 口碑商品交易退货接口
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceAirXfgDsgModifyRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.air.xfg.dsg.modify";
+		return "koubei.trade.itemorder.refund";
 	}
 
 	public function setNotifyUrl($notifyUrl)

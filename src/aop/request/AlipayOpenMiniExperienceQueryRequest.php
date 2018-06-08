@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.air.xfg.dsg.modify request
+ * ALIPAY API: alipay.open.mini.experience.query request
  *
  * @author auto create
- * @since 1.0, 2018-01-18 15:28:48
+ * @since 1.0, 2018-01-25 00:12:45
  */
-class AlipayCommerceAirXfgDsgModifyRequest
+class AlipayOpenMiniExperienceQueryRequest
 {
 	/** 
-	 * 吃饭更好
+	 * 小程序体验版轮询接口
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceAirXfgDsgModifyRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.air.xfg.dsg.modify";
+		return "alipay.open.mini.experience.query";
 	}
 
 	public function setNotifyUrl($notifyUrl)

@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.air.xfg.dsg.modify request
+ * ALIPAY API: alipay.open.agent.order.query request
  *
  * @author auto create
- * @since 1.0, 2018-01-18 15:28:48
+ * @since 1.0, 2018-01-31 21:39:01
  */
-class AlipayCommerceAirXfgDsgModifyRequest
+class AlipayOpenAgentOrderQueryRequest
 {
 	/** 
-	 * 吃饭更好
+	 * 查询申请单状态
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceAirXfgDsgModifyRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.air.xfg.dsg.modify";
+		return "alipay.open.agent.order.query";
 	}
 
 	public function setNotifyUrl($notifyUrl)

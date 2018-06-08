@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.air.xfg.dsg.modify request
+ * ALIPAY API: koubei.advert.delivery.discount.send request
  *
  * @author auto create
- * @since 1.0, 2018-01-18 15:28:48
+ * @since 1.0, 2018-03-02 10:05:02
  */
-class AlipayCommerceAirXfgDsgModifyRequest
+class KoubeiAdvertDeliveryDiscountSendRequest
 {
 	/** 
-	 * 吃饭更好
+	 * 口碑外部投放授权发券接口
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceAirXfgDsgModifyRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.air.xfg.dsg.modify";
+		return "koubei.advert.delivery.discount.send";
 	}
 
 	public function setNotifyUrl($notifyUrl)

@@ -1,16 +1,12 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.air.xfg.dsg.modify request
+ * ALIPAY API: alipay.open.mini.baseinfo.query request
  *
  * @author auto create
- * @since 1.0, 2018-01-18 15:28:48
+ * @since 1.0, 2018-01-15 14:11:36
  */
-class AlipayCommerceAirXfgDsgModifyRequest
+class AlipayOpenMiniBaseinfoQueryRequest
 {
-	/** 
-	 * 吃饭更好
-	 **/
-	private $bizContent;
 
 	private $apiParas = array();
 	private $terminalType;
@@ -22,20 +18,9 @@ class AlipayCommerceAirXfgDsgModifyRequest
     private $needEncrypt=false;
 
 	
-	public function setBizContent($bizContent)
-	{
-		$this->bizContent = $bizContent;
-		$this->apiParas["biz_content"] = $bizContent;
-	}
-
-	public function getBizContent()
-	{
-		return $this->bizContent;
-	}
-
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.air.xfg.dsg.modify";
+		return "alipay.open.mini.baseinfo.query";
 	}
 
 	public function setNotifyUrl($notifyUrl)

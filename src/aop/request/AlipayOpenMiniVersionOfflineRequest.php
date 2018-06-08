@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.air.xfg.dsg.modify request
+ * ALIPAY API: alipay.open.mini.version.offline request
  *
  * @author auto create
- * @since 1.0, 2018-01-18 15:28:48
+ * @since 1.0, 2018-01-15 14:16:24
  */
-class AlipayCommerceAirXfgDsgModifyRequest
+class AlipayOpenMiniVersionOfflineRequest
 {
 	/** 
-	 * 吃饭更好
+	 * 小程序下架
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceAirXfgDsgModifyRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.air.xfg.dsg.modify";
+		return "alipay.open.mini.version.offline";
 	}
 
 	public function setNotifyUrl($notifyUrl)

@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.air.xfg.dsg.modify request
+ * ALIPAY API: koubei.member.data.isv.create request
  *
  * @author auto create
- * @since 1.0, 2018-01-18 15:28:48
+ * @since 1.0, 2018-02-05 16:38:18
  */
-class AlipayCommerceAirXfgDsgModifyRequest
+class KoubeiMemberDataIsvCreateRequest
 {
 	/** 
-	 * 吃饭更好
+	 * isv 会员CRM数据回流
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceAirXfgDsgModifyRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.air.xfg.dsg.modify";
+		return "koubei.member.data.isv.create";
 	}
 
 	public function setNotifyUrl($notifyUrl)

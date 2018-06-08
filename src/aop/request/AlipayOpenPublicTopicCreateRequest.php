@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.air.xfg.dsg.modify request
+ * ALIPAY API: alipay.open.public.topic.create request
  *
  * @author auto create
- * @since 1.0, 2018-01-18 15:28:48
+ * @since 1.0, 2018-01-05 17:38:29
  */
-class AlipayCommerceAirXfgDsgModifyRequest
+class AlipayOpenPublicTopicCreateRequest
 {
 	/** 
-	 * 吃饭更好
+	 * 营销位添加接口
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceAirXfgDsgModifyRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.air.xfg.dsg.modify";
+		return "alipay.open.public.topic.create";
 	}
 
 	public function setNotifyUrl($notifyUrl)

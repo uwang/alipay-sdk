@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.air.xfg.dsg.modify request
+ * ALIPAY API: alipay.open.public.payee.bind.delete request
  *
  * @author auto create
- * @since 1.0, 2018-01-18 15:28:48
+ * @since 1.0, 2018-02-09 15:43:49
  */
-class AlipayCommerceAirXfgDsgModifyRequest
+class AlipayOpenPublicPayeeBindDeleteRequest
 {
 	/** 
-	 * 吃饭更好
+	 * 删除收款账号接口
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceAirXfgDsgModifyRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.air.xfg.dsg.modify";
+		return "alipay.open.public.payee.bind.delete";
 	}
 
 	public function setNotifyUrl($notifyUrl)

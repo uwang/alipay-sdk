@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.air.xfg.dsg.modify request
+ * ALIPAY API: koubei.trade.itemorder.buy request
  *
  * @author auto create
- * @since 1.0, 2018-01-18 15:28:48
+ * @since 1.0, 2018-03-21 14:18:05
  */
-class AlipayCommerceAirXfgDsgModifyRequest
+class KoubeiTradeItemorderBuyRequest
 {
 	/** 
-	 * 吃饭更好
+	 * 商品下单购买
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceAirXfgDsgModifyRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.air.xfg.dsg.modify";
+		return "koubei.trade.itemorder.buy";
 	}
 
 	public function setNotifyUrl($notifyUrl)

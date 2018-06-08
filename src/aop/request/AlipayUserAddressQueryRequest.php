@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.air.xfg.dsg.modify request
+ * ALIPAY API: alipay.user.address.query request
  *
  * @author auto create
- * @since 1.0, 2018-01-18 15:28:48
+ * @since 1.0, 2018-01-25 16:10:34
  */
-class AlipayCommerceAirXfgDsgModifyRequest
+class AlipayUserAddressQueryRequest
 {
 	/** 
-	 * 吃饭更好
+	 * 根据addressId获取用户详细地址信息
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceAirXfgDsgModifyRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.air.xfg.dsg.modify";
+		return "alipay.user.address.query";
 	}
 
 	public function setNotifyUrl($notifyUrl)

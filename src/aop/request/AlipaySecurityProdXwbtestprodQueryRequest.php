@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.air.xfg.dsg.modify request
+ * ALIPAY API: alipay.security.prod.xwbtestprod.query request
  *
  * @author auto create
- * @since 1.0, 2018-01-18 15:28:48
+ * @since 1.0, 2018-04-18 11:43:35
  */
-class AlipayCommerceAirXfgDsgModifyRequest
+class AlipaySecurityProdXwbtestprodQueryRequest
 {
 	/** 
-	 * 吃饭更好
+	 * 徐伟波测试用
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceAirXfgDsgModifyRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.air.xfg.dsg.modify";
+		return "alipay.security.prod.xwbtestprod.query";
 	}
 
 	public function setNotifyUrl($notifyUrl)

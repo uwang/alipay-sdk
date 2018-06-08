@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.air.xfg.dsg.modify request
+ * ALIPAY API: alipay.marketing.card.template.batchquery request
  *
  * @author auto create
- * @since 1.0, 2018-01-18 15:28:48
+ * @since 1.0, 2018-02-05 17:51:11
  */
-class AlipayCommerceAirXfgDsgModifyRequest
+class AlipayMarketingCardTemplateBatchqueryRequest
 {
 	/** 
-	 * 吃饭更好
+	 * 会员卡模板批量查询
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceAirXfgDsgModifyRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.air.xfg.dsg.modify";
+		return "alipay.marketing.card.template.batchquery";
 	}
 
 	public function setNotifyUrl($notifyUrl)

@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.air.xfg.dsg.modify request
+ * ALIPAY API: koubei.catering.crowdgroup.condition.query request
  *
  * @author auto create
- * @since 1.0, 2018-01-18 15:28:48
+ * @since 1.0, 2018-04-04 11:10:00
  */
-class AlipayCommerceAirXfgDsgModifyRequest
+class KoubeiCateringCrowdgroupConditionQueryRequest
 {
 	/** 
-	 * 吃饭更好
+	 * isv创建用户规则查询
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceAirXfgDsgModifyRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.air.xfg.dsg.modify";
+		return "koubei.catering.crowdgroup.condition.query";
 	}
 
 	public function setNotifyUrl($notifyUrl)

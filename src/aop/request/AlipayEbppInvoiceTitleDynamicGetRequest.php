@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.air.xfg.dsg.modify request
+ * ALIPAY API: alipay.ebpp.invoice.title.dynamic.get request
  *
  * @author auto create
- * @since 1.0, 2018-01-18 15:28:48
+ * @since 1.0, 2018-03-15 20:22:29
  */
-class AlipayCommerceAirXfgDsgModifyRequest
+class AlipayEbppInvoiceTitleDynamicGetRequest
 {
 	/** 
-	 * 吃饭更好
+	 * 根据条形码获取抬头
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceAirXfgDsgModifyRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.air.xfg.dsg.modify";
+		return "alipay.ebpp.invoice.title.dynamic.get";
 	}
 
 	public function setNotifyUrl($notifyUrl)

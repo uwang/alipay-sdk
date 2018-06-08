@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.air.xfg.dsg.modify request
+ * ALIPAY API: alipay.open.mini.template.usage.query request
  *
  * @author auto create
- * @since 1.0, 2018-01-18 15:28:48
+ * @since 1.0, 2018-03-14 14:04:01
  */
-class AlipayCommerceAirXfgDsgModifyRequest
+class AlipayOpenMiniTemplateUsageQueryRequest
 {
 	/** 
-	 * 吃饭更好
+	 * 查询使用ISV模板的托管小程序列表
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceAirXfgDsgModifyRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.air.xfg.dsg.modify";
+		return "alipay.open.mini.template.usage.query";
 	}
 
 	public function setNotifyUrl($notifyUrl)

@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.air.xfg.dsg.modify request
+ * ALIPAY API: alipay.open.mini.templatemessage.usertemplate.apply request
  *
  * @author auto create
- * @since 1.0, 2018-01-18 15:28:48
+ * @since 1.0, 2018-01-23 18:22:47
  */
-class AlipayCommerceAirXfgDsgModifyRequest
+class AlipayOpenMiniTemplatemessageUsertemplateApplyRequest
 {
 	/** 
-	 * 吃饭更好
+	 * 小程序模板消息申请
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceAirXfgDsgModifyRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.air.xfg.dsg.modify";
+		return "alipay.open.mini.templatemessage.usertemplate.apply";
 	}
 
 	public function setNotifyUrl($notifyUrl)

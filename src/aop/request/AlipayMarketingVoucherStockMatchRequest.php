@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.air.xfg.dsg.modify request
+ * ALIPAY API: alipay.marketing.voucher.stock.match request
  *
  * @author auto create
- * @since 1.0, 2018-01-18 15:28:48
+ * @since 1.0, 2018-02-02 14:45:26
  */
-class AlipayCommerceAirXfgDsgModifyRequest
+class AlipayMarketingVoucherStockMatchRequest
 {
 	/** 
-	 * 吃饭更好
+	 * 外部商户券码券核查
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceAirXfgDsgModifyRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.air.xfg.dsg.modify";
+		return "alipay.marketing.voucher.stock.match";
 	}
 
 	public function setNotifyUrl($notifyUrl)

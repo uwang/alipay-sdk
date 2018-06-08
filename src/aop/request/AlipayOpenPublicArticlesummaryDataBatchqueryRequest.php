@@ -1,14 +1,14 @@
 <?php
 /**
- * ALIPAY API: alipay.commerce.air.xfg.dsg.modify request
+ * ALIPAY API: alipay.open.public.articlesummary.data.batchquery request
  *
  * @author auto create
- * @since 1.0, 2018-01-18 15:28:48
+ * @since 1.0, 2018-01-05 15:08:10
  */
-class AlipayCommerceAirXfgDsgModifyRequest
+class AlipayOpenPublicArticlesummaryDataBatchqueryRequest
 {
 	/** 
-	 * 吃饭更好
+	 * 图文分析-按时间查询数据接口
 	 **/
 	private $bizContent;
 
@@ -35,7 +35,7 @@ class AlipayCommerceAirXfgDsgModifyRequest
 
 	public function getApiMethodName()
 	{
-		return "alipay.commerce.air.xfg.dsg.modify";
+		return "alipay.open.public.articlesummary.data.batchquery";
 	}
 
 	public function setNotifyUrl($notifyUrl)
