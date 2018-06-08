@@ -3,7 +3,7 @@
  * ALIPAY API: alipay.marketing.tool.fengdie.sites.create request
  *
  * @author auto create
- * @since 1.0, 2017-10-16 20:20:59
+ * @since 1.0, 2018-04-26 10:13:04
  */
 class AlipayMarketingToolFengdieSitesCreateRequest
 {
